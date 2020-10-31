@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem tra phan tu co nam trong mang</title>
+</head>
+<body>
+<script>
+    let arr = [1,2,3,"4","a","b","c","*","-","%"];
+    let a = prompt("nhap bat ky");
+    document.write(checkCharacter(arr, a));
+    function checkCharacter(arr, a){
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] == a) {
+                return "day la phan tu nam trong chuoi";
+            } else {
+                return "-1"
+            }
+        }
+    }
+</script>
+</body>
+</html>

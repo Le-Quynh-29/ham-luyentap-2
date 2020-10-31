@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dao nguoc cac phan tu trong mang</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    function change(){
+        for (let i = 0; i < 5; i++) {
+            let x =prompt("nhap vao phan tu thu" + i);
+            arr.push(x);
+        }
+       return arr.reverse()
+    }
+    document.write(change(arr));
+</script>
+</body>
+</html>
